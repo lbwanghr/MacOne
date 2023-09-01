@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E52F5C472A9110D500658F2A /* MacOneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F5C462A9110D500658F2A /* MacOneApp.swift */; };
+		E52F5C472A9110D500658F2A /* StormViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F5C462A9110D500658F2A /* StormViewApp.swift */; };
 		E52F5C492A9110D500658F2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F5C482A9110D500658F2A /* ContentView.swift */; };
 		E52F5C4B2A9110DA00658F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52F5C4A2A9110DA00658F2A /* Assets.xcassets */; };
-		E52F5C4E2A9110DA00658F2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52F5C4D2A9110DA00658F2A /* Preview Assets.xcassets */; };
+		E579087E2AA0415700A5A49F /* CowsAndBullsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E579087D2AA0415700A5A49F /* CowsAndBullsApp.swift */; };
+		E57908802AA0415700A5A49F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E579087F2AA0415700A5A49F /* ContentView.swift */; };
+		E57908822AA0415C00A5A49F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57908812AA0415C00A5A49F /* Assets.xcassets */; };
+		E5BEB1112AA1D3A9008B373D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E5BEB1102AA1D3A9008B373D /* Credits.rtf */; };
+		E5BEB1122AA1D3AF008B373D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E5BEB1102AA1D3A9008B373D /* Credits.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E52F5C432A9110D500658F2A /* MacOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E52F5C462A9110D500658F2A /* MacOneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOneApp.swift; sourceTree = "<group>"; };
+		E52F5C432A9110D500658F2A /* StormView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52F5C462A9110D500658F2A /* StormViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormViewApp.swift; sourceTree = "<group>"; };
 		E52F5C482A9110D500658F2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E52F5C4A2A9110DA00658F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E52F5C4D2A9110DA00658F2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E52F5C4F2A9110DA00658F2A /* MacOne.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOne.entitlements; sourceTree = "<group>"; };
+		E52F5C4F2A9110DA00658F2A /* StormView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StormView.entitlements; sourceTree = "<group>"; };
+		E579087B2AA0415700A5A49F /* CowsAndBulls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CowsAndBulls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E579087D2AA0415700A5A49F /* CowsAndBullsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsAndBullsApp.swift; sourceTree = "<group>"; };
+		E579087F2AA0415700A5A49F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E57908812AA0415C00A5A49F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E57908862AA0415C00A5A49F /* CowsAndBulls.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CowsAndBulls.entitlements; sourceTree = "<group>"; };
+		E5BEB1102AA1D3A9008B373D /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E52F5C402A9110D500658F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57908782AA0415700A5A49F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,7 +52,9 @@
 		E52F5C3A2A9110D500658F2A = {
 			isa = PBXGroup;
 			children = (
-				E52F5C452A9110D500658F2A /* MacOne */,
+				E5BEB1102AA1D3A9008B373D /* Credits.rtf */,
+				E52F5C452A9110D500658F2A /* StormView */,
+				E579087C2AA0415700A5A49F /* CowsAndBulls */,
 				E52F5C442A9110D500658F2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,37 +62,40 @@
 		E52F5C442A9110D500658F2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E52F5C432A9110D500658F2A /* MacOne.app */,
+				E52F5C432A9110D500658F2A /* StormView.app */,
+				E579087B2AA0415700A5A49F /* CowsAndBulls.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E52F5C452A9110D500658F2A /* MacOne */ = {
+		E52F5C452A9110D500658F2A /* StormView */ = {
 			isa = PBXGroup;
 			children = (
-				E52F5C462A9110D500658F2A /* MacOneApp.swift */,
+				E52F5C462A9110D500658F2A /* StormViewApp.swift */,
 				E52F5C482A9110D500658F2A /* ContentView.swift */,
 				E52F5C4A2A9110DA00658F2A /* Assets.xcassets */,
-				E52F5C4F2A9110DA00658F2A /* MacOne.entitlements */,
-				E52F5C4C2A9110DA00658F2A /* Preview Content */,
+				E52F5C4F2A9110DA00658F2A /* StormView.entitlements */,
 			);
-			path = MacOne;
+			path = StormView;
 			sourceTree = "<group>";
 		};
-		E52F5C4C2A9110DA00658F2A /* Preview Content */ = {
+		E579087C2AA0415700A5A49F /* CowsAndBulls */ = {
 			isa = PBXGroup;
 			children = (
-				E52F5C4D2A9110DA00658F2A /* Preview Assets.xcassets */,
+				E579087D2AA0415700A5A49F /* CowsAndBullsApp.swift */,
+				E579087F2AA0415700A5A49F /* ContentView.swift */,
+				E57908812AA0415C00A5A49F /* Assets.xcassets */,
+				E57908862AA0415C00A5A49F /* CowsAndBulls.entitlements */,
 			);
-			path = "Preview Content";
+			path = CowsAndBulls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E52F5C422A9110D500658F2A /* MacOne */ = {
+		E52F5C422A9110D500658F2A /* StormView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E52F5C522A9110DA00658F2A /* Build configuration list for PBXNativeTarget "MacOne" */;
+			buildConfigurationList = E52F5C522A9110DA00658F2A /* Build configuration list for PBXNativeTarget "StormView" */;
 			buildPhases = (
 				E52F5C3F2A9110D500658F2A /* Sources */,
 				E52F5C402A9110D500658F2A /* Frameworks */,
@@ -84,9 +105,26 @@
 			);
 			dependencies = (
 			);
-			name = MacOne;
+			name = StormView;
 			productName = MacOne;
-			productReference = E52F5C432A9110D500658F2A /* MacOne.app */;
+			productReference = E52F5C432A9110D500658F2A /* StormView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E579087A2AA0415700A5A49F /* CowsAndBulls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E57908872AA0415C00A5A49F /* Build configuration list for PBXNativeTarget "CowsAndBulls" */;
+			buildPhases = (
+				E57908772AA0415700A5A49F /* Sources */,
+				E57908782AA0415700A5A49F /* Frameworks */,
+				E57908792AA0415700A5A49F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CowsAndBulls;
+			productName = CowsAndBulls;
+			productReference = E579087B2AA0415700A5A49F /* CowsAndBulls.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,6 +138,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					E52F5C422A9110D500658F2A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E579087A2AA0415700A5A49F = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -117,7 +158,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E52F5C422A9110D500658F2A /* MacOne */,
+				E52F5C422A9110D500658F2A /* StormView */,
+				E579087A2AA0415700A5A49F /* CowsAndBulls */,
 			);
 		};
 /* End PBXProject section */
@@ -127,8 +169,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E52F5C4E2A9110DA00658F2A /* Preview Assets.xcassets in Resources */,
 				E52F5C4B2A9110DA00658F2A /* Assets.xcassets in Resources */,
+				E5BEB1112AA1D3A9008B373D /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57908792AA0415700A5A49F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57908822AA0415C00A5A49F /* Assets.xcassets in Resources */,
+				E5BEB1122AA1D3AF008B373D /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +191,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E52F5C492A9110D500658F2A /* ContentView.swift in Sources */,
-				E52F5C472A9110D500658F2A /* MacOneApp.swift in Sources */,
+				E52F5C472A9110D500658F2A /* StormViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57908772AA0415700A5A49F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57908802AA0415700A5A49F /* ContentView.swift in Sources */,
+				E579087E2AA0415700A5A49F /* CowsAndBullsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +330,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MacOne/MacOne.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StormView/StormView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MacOne/Preview Content\"";
 				DEVELOPMENT_TEAM = UCV96WLDG4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -285,7 +344,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = top.mightycounty.MacOne;
+				PRODUCT_BUNDLE_IDENTIFIER = top.mightycounty.StormView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -297,11 +356,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MacOne/MacOne.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StormView/StormView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MacOne/Preview Content\"";
 				DEVELOPMENT_TEAM = UCV96WLDG4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -312,7 +370,59 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = top.mightycounty.MacOne;
+				PRODUCT_BUNDLE_IDENTIFIER = top.mightycounty.StormView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E57908882AA0415C00A5A49F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CowsAndBulls/CowsAndBulls.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UCV96WLDG4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.mightycounty.CowsAndBulls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E57908892AA0415C00A5A49F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CowsAndBulls/CowsAndBulls.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UCV96WLDG4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.mightycounty.CowsAndBulls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -331,11 +441,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E52F5C522A9110DA00658F2A /* Build configuration list for PBXNativeTarget "MacOne" */ = {
+		E52F5C522A9110DA00658F2A /* Build configuration list for PBXNativeTarget "StormView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E52F5C532A9110DA00658F2A /* Debug */,
 				E52F5C542A9110DA00658F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E57908872AA0415C00A5A49F /* Build configuration list for PBXNativeTarget "CowsAndBulls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57908882AA0415C00A5A49F /* Debug */,
+				E57908892AA0415C00A5A49F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
