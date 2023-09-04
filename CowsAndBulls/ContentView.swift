@@ -29,7 +29,8 @@ struct ContentView: View {
                     Text(logs[index])
                     Spacer()
                     if !enableHardMode || index == 0 {
-                        Text(result(for:logs[index]))
+                        let result = result(for:logs[index])
+                        Text(result).colorfulGuess(result: result)
                     }
                 }
                 
@@ -96,5 +97,27 @@ struct ContentView: View {
         let pool = "0123456789"
         answer = String(pool.shuffled().prefix(4))
     }
-    
+
+}
+
+struct ColorfulGuess: ViewModifier {
+    let color: Color
+    func body(content: Content) -> some View {
+        content.foregroundColor(color)
+    }
+}
+
+extension View {
+    func colorfulGuess(result: String) -> some View {
+        let (cows, bulls) = (Int(String(result[result.index(result.startIndex, offsetBy: 1)])), Int(String(result[result.index(result.startIndex, offsetBy: 3)])))
+
+        let sum = cows! + bulls!
+        var color = Color.black
+        switch sum {
+        case 0: color = .red
+        case 1...3: color = .yellow
+        default: color = .green
+        }
+        return modifier(ColorfulGuess(color: color))
+    }
 }

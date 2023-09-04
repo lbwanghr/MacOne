@@ -10,6 +10,8 @@
 		E52F5C472A9110D500658F2A /* StormViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F5C462A9110D500658F2A /* StormViewApp.swift */; };
 		E52F5C492A9110D500658F2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F5C482A9110D500658F2A /* ContentView.swift */; };
 		E52F5C4B2A9110DA00658F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52F5C4A2A9110DA00658F2A /* Assets.xcassets */; };
+		E55A79032AA418300035D696 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55A79022AA418300035D696 /* App.swift */; };
+		E55A790A2AA4A78C0035D696 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = E55A79092AA4A78C0035D696 /* ArgumentParser */; };
 		E579087E2AA0415700A5A49F /* CowsAndBullsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E579087D2AA0415700A5A49F /* CowsAndBullsApp.swift */; };
 		E57908802AA0415700A5A49F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E579087F2AA0415700A5A49F /* ContentView.swift */; };
 		E57908822AA0415C00A5A49F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57908812AA0415C00A5A49F /* Assets.xcassets */; };
@@ -17,12 +19,26 @@
 		E5BEB1122AA1D3AF008B373D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E5BEB1102AA1D3A9008B373D /* Credits.rtf */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E55A78FE2AA418300035D696 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		E52F5C432A9110D500658F2A /* StormView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52F5C462A9110D500658F2A /* StormViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormViewApp.swift; sourceTree = "<group>"; };
 		E52F5C482A9110D500658F2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E52F5C4A2A9110DA00658F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E52F5C4F2A9110DA00658F2A /* StormView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StormView.entitlements; sourceTree = "<group>"; };
+		E55A79002AA418300035D696 /* TextParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TextParser; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55A79022AA418300035D696 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		E579087B2AA0415700A5A49F /* CowsAndBulls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CowsAndBulls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E579087D2AA0415700A5A49F /* CowsAndBullsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsAndBullsApp.swift; sourceTree = "<group>"; };
 		E579087F2AA0415700A5A49F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +52,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55A78FD2AA418300035D696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55A790A2AA4A78C0035D696 /* ArgumentParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +79,9 @@
 				E5BEB1102AA1D3A9008B373D /* Credits.rtf */,
 				E52F5C452A9110D500658F2A /* StormView */,
 				E579087C2AA0415700A5A49F /* CowsAndBulls */,
+				E55A79012AA418300035D696 /* TextParser */,
 				E52F5C442A9110D500658F2A /* Products */,
+				E55A79082AA4A78C0035D696 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +90,7 @@
 			children = (
 				E52F5C432A9110D500658F2A /* StormView.app */,
 				E579087B2AA0415700A5A49F /* CowsAndBulls.app */,
+				E55A79002AA418300035D696 /* TextParser */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +104,21 @@
 				E52F5C4F2A9110DA00658F2A /* StormView.entitlements */,
 			);
 			path = StormView;
+			sourceTree = "<group>";
+		};
+		E55A79012AA418300035D696 /* TextParser */ = {
+			isa = PBXGroup;
+			children = (
+				E55A79022AA418300035D696 /* App.swift */,
+			);
+			path = TextParser;
+			sourceTree = "<group>";
+		};
+		E55A79082AA4A78C0035D696 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E579087C2AA0415700A5A49F /* CowsAndBulls */ = {
@@ -110,6 +152,26 @@
 			productReference = E52F5C432A9110D500658F2A /* StormView.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E55A78FF2AA418300035D696 /* TextParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55A79062AA418300035D696 /* Build configuration list for PBXNativeTarget "TextParser" */;
+			buildPhases = (
+				E55A78FC2AA418300035D696 /* Sources */,
+				E55A78FD2AA418300035D696 /* Frameworks */,
+				E55A78FE2AA418300035D696 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextParser;
+			packageProductDependencies = (
+				E55A79092AA4A78C0035D696 /* ArgumentParser */,
+			);
+			productName = TextParser;
+			productReference = E55A79002AA418300035D696 /* TextParser */;
+			productType = "com.apple.product-type.tool";
+		};
 		E579087A2AA0415700A5A49F /* CowsAndBulls */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E57908872AA0415C00A5A49F /* Build configuration list for PBXNativeTarget "CowsAndBulls" */;
@@ -140,6 +202,9 @@
 					E52F5C422A9110D500658F2A = {
 						CreatedOnToolsVersion = 15.0;
 					};
+					E55A78FF2AA418300035D696 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					E579087A2AA0415700A5A49F = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -154,12 +219,16 @@
 				Base,
 			);
 			mainGroup = E52F5C3A2A9110D500658F2A;
+			packageReferences = (
+				E55A79072AA4A2FF0035D696 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+			);
 			productRefGroup = E52F5C442A9110D500658F2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E52F5C422A9110D500658F2A /* StormView */,
 				E579087A2AA0415700A5A49F /* CowsAndBulls */,
+				E55A78FF2AA418300035D696 /* TextParser */,
 			);
 		};
 /* End PBXProject section */
@@ -192,6 +261,14 @@
 			files = (
 				E52F5C492A9110D500658F2A /* ContentView.swift in Sources */,
 				E52F5C472A9110D500658F2A /* StormViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55A78FC2AA418300035D696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55A79032AA418300035D696 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +454,28 @@
 			};
 			name = Release;
 		};
+		E55A79042AA418300035D696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCV96WLDG4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E55A79052AA418300035D696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCV96WLDG4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E57908882AA0415C00A5A49F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -450,6 +549,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		E55A79062AA418300035D696 /* Build configuration list for PBXNativeTarget "TextParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55A79042AA418300035D696 /* Debug */,
+				E55A79052AA418300035D696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E57908872AA0415C00A5A49F /* Build configuration list for PBXNativeTarget "CowsAndBulls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -460,6 +568,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E55A79072AA4A2FF0035D696 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E55A79092AA4A78C0035D696 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E55A79072AA4A2FF0035D696 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E52F5C3B2A9110D500658F2A /* Project object */;
 }

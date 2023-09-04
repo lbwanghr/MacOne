@@ -1,12 +1,4 @@
-//
-//  CowsAndBullsApp.swift
-//  CowsAndBulls
-//
-//  Created by Haoran Wang on 2023/8/31.
-//
-
 import SwiftUI
-
 @main
 struct CowsAndBullsApp: App {
     var body: some Scene {
